@@ -1,22 +1,15 @@
 import "./Styles/Header.css";
+import faviconFilterUrl from "/src/assets/favicon_filter.png";
+import githubMarkUrl from "/src/assets/github-mark.png";
 
 function Header() {
     return (
         <header>
-            <img
-                src="/src/assets/favicon_filter.png"
-                width="50"
-                height="50"
-                alt="logo"
-            ></img>
-            <a href="/parse-excel-v1/" className="header-link" alt="Home">
+            <img src={faviconFilterUrl} width="50" height="50" alt="logo"></img>
+            <a href="./" className="header-link" alt="Home">
                 Home
             </a>
-            <a
-                href="/parse-excel-v1/parse-excel"
-                className="header-link"
-                alt="ParseExcel"
-            >
+            <a href="./parse-excel" className="header-link" alt="ParseExcel">
                 ParseExcel
             </a>
             <span className="empty"></span>
@@ -27,7 +20,7 @@ function Header() {
                     alt="GitHub link"
                 >
                     <img
-                        src="/src/assets/github-mark.png"
+                        src={githubMarkUrl}
                         width="20"
                         height="20"
                         alt="GitHub logo"

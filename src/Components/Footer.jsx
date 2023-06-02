@@ -1,4 +1,5 @@
 import "./Styles/Footer.css";
+import githubMarkUrl from "/src/assets/github-mark.png";
 
 function Footer() {
     return (
@@ -12,7 +13,7 @@ function Footer() {
                         alt="GitHub link"
                     >
                         <img
-                            src="/src/assets/github-mark.png"
+                            src={githubMarkUrl}
                             width="20"
                             height="20"
                             alt="GitHub logo"
