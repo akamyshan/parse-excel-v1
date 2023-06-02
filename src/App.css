@@ -1,0 +1,79 @@
+/* https://colorscheme.ru/#2j51Tw0w0w0w0 */
+
+body {
+  /* padding-left: 40px; */
+  padding-bottom: 0;
+  background-color: #6D9C00;
+}
+
+h1 {
+  letter-spacing: 0.05 em;
+}
+
+a,
+button {
+  text-decoration: none;
+  border: solid;
+  border-radius: 5px;
+  background-color: #138900;
+  letter-spacing: 0.4em;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: #389E28;
+}
+
+.content {
+  padding-left: 40px;
+  min-height: calc(100vh - 42px - 90px - 32px);
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile+label {
+  border: solid;
+  border-radius: 5px;
+  font-size: 1.25em;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  font-size: 2em;
+  color: black;
+  background-color: #138900;
+  display: inline-block;
+}
+
+.inputfile:focus+label,
+.inputfile+label:hover {
+  background-color: #389E28;
+}
+
+
+table {
+  margin-top: 20px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+th,
+td {
+  padding: 10px 20px;
+  border: 1px solid;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #389E28;
+}
+
+.amount {
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+header {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+    background-color: #4f7002;
+    border-bottom: 3px solid;
+
+    display: grid;
+    grid-template-columns: [logo] 50px [home] 120px [ParseExcel] 200px [empty] auto [github] 140px;
+  }
+
+  .header-link {
+    background-color: #4f7002;
+    border: none;
+    letter-spacing: 0.05em;
+    color: black;
+    font-size: 2em;
+    font-weight: 500;
+  }
+
+  .github-link {
+    letter-spacing: none;
+    font-size: 1.5em;
+    font-weight: 500;
+  }
