@@ -6,7 +6,8 @@ header {
     border-bottom: 3px solid;
 
     display: grid;
-    grid-template-columns: [logo] 50px [home] 120px [ParseExcel] 200px [empty] auto [github] 140px;
+    grid-template-columns: [logo] 50px [ParseExcel] 200px [empty] auto [github] 140px;
+    /* grid-template-columns: [logo] 50px [home] 120px [ParseExcel] 200px [empty] auto [github] 140px; */
   }
 
   .header-link {

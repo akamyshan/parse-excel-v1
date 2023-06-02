@@ -6,10 +6,13 @@ function Header() {
     return (
         <header>
             <img src={faviconFilterUrl} width="50" height="50" alt="logo"></img>
-            <a href="./" className="header-link" alt="Home">
+            {/* <a href="./" className="header-link" alt="Home">
                 Home
-            </a>
-            <a href="./parse-excel" className="header-link" alt="ParseExcel">
+            </a> */}
+            {/* <a href="./parse-excel" className="header-link" alt="ParseExcel">
+                ParseExcel
+            </a> */}
+            <a href="./" className="header-link" alt="ParseExcel">
                 ParseExcel
             </a>
             <span className="empty"></span>
