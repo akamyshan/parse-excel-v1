@@ -7,12 +7,12 @@ function Footer() {
                 <li>© {new Date().getFullYear()} akamyshan</li>
                 <li>
                     <a
-                        href="https://github.com/akamyshan"
+                        href="https://github.com/akamyshan/parse-excel-v1"
                         className="footer-link"
                         alt="GitHub link"
                     >
                         <img
-                            src="src/assets/github-mark.png"
+                            src="/src/assets/github-mark.png"
                             width="20"
                             height="20"
                             alt="GitHub logo"

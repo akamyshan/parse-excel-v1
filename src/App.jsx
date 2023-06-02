@@ -6,8 +6,11 @@ import "./App.css";
 function App() {
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/parse-excel" element={<ParseExcel />} />
+            <Route path="/parse-excel-v1/" element={<Home />} />
+            <Route
+                path="/parse-excel-v1/parse-excel"
+                element={<ParseExcel />}
+            />
         </Routes>
     );
 }

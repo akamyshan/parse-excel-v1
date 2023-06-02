@@ -4,26 +4,30 @@ function Header() {
     return (
         <header>
             <img
-                src="src/assets/favicon_filter.png"
+                src="/src/assets/favicon_filter.png"
                 width="50"
                 height="50"
                 alt="logo"
             ></img>
-            <a href="/" className="header-link" alt="Home">
+            <a href="/parse-excel-v1/" className="header-link" alt="Home">
                 Home
             </a>
-            <a href="/parse-excel" className="header-link" alt="ParseExcel">
+            <a
+                href="/parse-excel-v1/parse-excel"
+                className="header-link"
+                alt="ParseExcel"
+            >
                 ParseExcel
             </a>
             <span className="empty"></span>
             <nav>
                 <a
-                    href="https://github.com/akamyshan"
+                    href="https://github.com/akamyshan/parse-excel-v1"
                     className="header-link github-link"
                     alt="GitHub link"
                 >
                     <img
-                        src="src/assets/github-mark.png"
+                        src="/src/assets/github-mark.png"
                         width="20"
                         height="20"
                         alt="GitHub logo"

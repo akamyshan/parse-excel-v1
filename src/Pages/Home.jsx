@@ -15,7 +15,7 @@ export const Home = () => {
                     Для отбора ссылок на задачи Jira используется регулярное
                     выражение `/jira+[\w/.]+[\w-]+[\d]+/gim`
                 </p>
-                <a href="/parse-excel">Let&lsquo;s go</a>
+                <a href="/parse-excel-v1/parse-excel">Let&lsquo;s go</a>
             </div>
             <Footer />
         </div>
