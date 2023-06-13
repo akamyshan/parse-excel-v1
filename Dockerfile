@@ -3,7 +3,8 @@ ENV NODE_ENV production
 WORKDIR /app
 COPY package.json .
 COPY package-lock.json .
-RUN npm install --production
+COPY vite.config.js .
+RUN npm install --production --omit=dev
 COPY . .
 RUN npm run build
 
